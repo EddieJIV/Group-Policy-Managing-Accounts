@@ -32,3 +32,15 @@
 
 - Navigate to the Default Domain Policy by going to:
   - Forest: mydomain.com > Domains > mydomain.com > Default Domain Policy
+ 
+<img width="700" height="700" alt="rightclickedit" src="https://github.com/user-attachments/assets/3e4a9aa4-d34f-411f-8d24-a2ae8eb15ff8" />
+
+- Right click on Default Domain Policy and click on edit to be brought to the Group Policy Management Editor.
+
+<img width="700" height="700" alt="Account Lockout Policy" src="https://github.com/user-attachments/assets/d4513e76-9f39-499e-b328-35226894e6b0" />
+
+
+
+- Navigate to the Account Lockout Policy Settings. In the Group Policy Management Editor, expand the following:
+   - Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy.
+
