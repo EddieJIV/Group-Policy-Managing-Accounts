@@ -63,7 +63,10 @@
 ---
 
 We have now successfully configured an account lockout policy in Active Directory using Group Policy.
-- Log out of Jane_admin on Client-1 and attempt to log into Client-1 with any of the domain users we created in our last lab.
+- Log out of Jane_admin on Client-1 and attempt to log into Client-1 with any of the domain users we created in our last lab; using the wrong password 5 times, to effectively get locked out of the account.
+  - You can use the same account you used last lab if you have the credentials saved for ease of access, or navigate to Active Directory Users and Computers > mydomain.com > _EMPLOYEES on DC-1 to observe your users.
+ 
+ 
 
 
 
