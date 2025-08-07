@@ -60,4 +60,10 @@
 - Open Command Prompt and type gpupdate /force, then press Enter.
   - reminder: the above image of the Command Prompt is taken from Client-1, logged in as our admin for this lab.
 
+---
+
+We have now successfully configured an account lockout policy in Active Directory using Group Policy.
+- Log out of Jane_admin on Client-1 and attempt to log into Client-1 with any of the domain users we created in our last lab.
+
+
 
