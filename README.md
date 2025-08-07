@@ -39,8 +39,25 @@
 
 <img width="700" height="700" alt="Account Lockout Policy" src="https://github.com/user-attachments/assets/d4513e76-9f39-499e-b328-35226894e6b0" />
 
-
-
 - Navigate to the Account Lockout Policy Settings. In the Group Policy Management Editor, expand the following:
    - Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy.
+ 
+  <img width="auto" height="auto" alt="Lockout threshold" src="https://github.com/user-attachments/assets/22508ebd-cd62-440a-aceb-fe8c54bf41aa" />
+
+- If you double click on Account Lockout Threshold, and change the threshold to 5, after 5 incorrect password attempts, the account will be locked.
+- Click Apply, then Click OK.
+
+<img width="700" height="700" alt="Polity Setting Change Auto complete" src="https://github.com/user-attachments/assets/6470e82e-02ee-439d-af0d-18df4fc44593" />
+
+
+- Notice how the Account lockout duration, Administrator account lockout, and Reset Account lockout counter all change as well.
+- In order for us to actually update the Group Policy, we can either wait for the Group Policy to propagate automatically, or force an update immediately.
+- For this lab we are going to force the update now.
+
+<img width="auto" height="auto" alt="cmd /force" src="https://github.com/user-attachments/assets/67014323-b00d-4326-ab27-55afead830d6" />
+
+- In order to do so, log into Client-1 as Jane_admin.
+- Open Command Prompt and type gpupdate /force, then press Enter.
+  - reminder: the above image of the Command Prompt is taken from Client-1, logged in as our admin for this lab.
+
 
