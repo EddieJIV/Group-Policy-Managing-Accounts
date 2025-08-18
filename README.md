@@ -66,14 +66,177 @@ Congratulations! We have now successfully configured an account lockout policy i
 
 ---
 
-
+<img width="700" height="700" alt="Failed logon attempt" src="https://github.com/user-attachments/assets/6b1435d8-fd2d-4f3e-85a0-3a846a9c4899" />
 
 
 - Log out of Jane_admin on Client-1 and "attempt" to log into Client-1 with any of the domain users we created in our last lab; using the wrong password 5 times, to effectively get locked out of the account.
   - You can use the same account you used last lab if you have the credentials saved for ease of access, or navigate to Active Directory Users and Computers > mydomain.com > _EMPLOYEES on DC-1 to observe your users.
-  - Again, as a reminder, the default password for each of our users is Password1
+  - Again, as a reminder, the default password for each of our users is Password1, but your user's account names will be different than what I use above.
+
+ <img width="416" height="107" alt="Lockout policy verification" src="https://github.com/user-attachments/assets/6372fcf5-bb4f-4d3f-8733-159681a7b626" />
+
+- Once you've entered an incorrect password into the logon screen 5 times and received this error message, you can be sure that you've sucessfully configured your Account Lockout Policy.
+- We are now going to go back into DC-1 and resolve the issue for the Domain User.
+
+ 
+
  
  
 
 
+
+
+
+
+
+---
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <img width="1000" alt="Img1" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+    <td>
+      <img width="1000" alt="Img2" src="https://i.imgur.com/DJmEXEB.png" />
+    </td>
+  </tr>
+</table>
 
